@@ -1,0 +1,23 @@
+.articles {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+}
+
+.article {
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(163, 163, 163);
+
+}
+.article * {
+  padding: 4px 0;
+  display: block;
+}
+
+.article h3 {
+  font-size: 30px;
+}
+
+.article a {
+  color: #ffd369;
+}

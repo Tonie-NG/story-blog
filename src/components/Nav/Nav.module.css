@@ -1,0 +1,28 @@
+.navigation {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #6b6a6a;
+    width: 90vw;
+    margin: 10px auto;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu a {
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.logo {
+    font-size: 25px;
+    cursor: pointer;
+    color: #ffd369;
+}
+
