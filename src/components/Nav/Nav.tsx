@@ -1,8 +1,8 @@
 import Link from 'next/link'
-import React from 'react'
+import React, { ReactElement } from 'react'
 import styles from "./Nav.module.css"
 
-function Nav () {
+function Nav () : ReactElement {
   return (
     <nav aria-label="Main Navigation" className={styles.navigation}>
         <div className={styles.logo}>
